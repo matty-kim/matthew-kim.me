@@ -6,27 +6,27 @@
       "subtitle": "",
       "data": [
         {
-          "title": "appleFullTime",
+          "title": "cupertino, ca",
           "name": "apple",
           "startYear": "2020.july",
-          "endYear": "",
+          "endYear": "present",
           "description": [
             "software and automation engineer",
             "fear team"
           ]
         },
         {
-          "title": "sumologicIntern",
+          "title": "redwood city, ca",
           "name": "sumo logic",
           "startYear": "2019.sept",
           "endYear": "2019.dec",
           "description": [
-            "infrastructue engineer",
+            "infrastructure engineer",
             ""
           ]
         },
         {
-          "title": "ibmIntern",
+          "title": "toronto, on",
           "name": "ibm canada",
           "startYear": "2018.sept",
           "endYear": "2018.dec",
@@ -36,10 +36,20 @@
           ]
         },
         {
-          "title": "uxpsystemsIntern",
-          "name": "uxp systems (an amdocs company)",
+          "title": "toronto, on",
+          "name": "uxp systems, an amdocs company",
           "startYear": "2018.jan",
           "endYear": "2018.apr",
+          "description": [
+            "back-end developer",
+            ""
+          ]
+        },
+        {
+          "title": "mississauga, on",
+          "name": "pointclickcare",
+          "startYear": "2017.may",
+          "endYear": "2017.aug",
           "description": [
             "java developer",
             ""
