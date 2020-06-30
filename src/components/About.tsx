@@ -57,7 +57,7 @@ class About extends React.Component<Props & RootStyles & Styles> {
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link href={getData(aboutData, locale).linkdin} className={classes.snsLink} target="_blank" rel="noopener">
+                    <Link href={getData(aboutData, locale).linkedin} className={classes.snsLink} target="_blank" rel="noopener">
                       <FontAwesomeIcon className={classes.snsIcon} icon={faLinkedin} />
                     </Link>
                   </Grid>
@@ -75,8 +75,8 @@ class About extends React.Component<Props & RootStyles & Styles> {
                                                         )}
                 </Grid>
                 <Grid item className={classes.cv}>
-                  <Link href='/resume.pdf'>
-                    Curriculum Vitae
+                  <Link href='/matthew_kim_resume.pdf'>
+                    resumé
                   </Link>
                 </Grid>
               </div>

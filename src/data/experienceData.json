@@ -1,51 +1,48 @@
 {
   "id": "experiences",
   "en": {
-    "title": "Experience",
+    "title": "experience",
     "work": {
-      "subtitle": "Work",
+      "subtitle": "",
       "data": [
         {
-          "title": "intern",
-          "name": "Axon Inc.",
-          "startYear": "2018.Jan",
-          "endYear": "2019.Sep",
+          "title": "appleFullTime",
+          "name": "apple",
+          "startYear": "2020.july",
+          "endYear": "",
           "description": [
-            "Front-end and Back-end engineer",
-            "Created several websites (front-end + back-end) using multiple frameworks.",
-            "Built a business inteligence system that will extract metrics from Facebook and Instagram, and save it in a database. Using this accumulated data, I have also built a visualization system."
+            "software and automation engineer",
+            "fear team"
           ]
         },
         {
-          "title": "kajikawaRa",
-          "name": "Research Assistant (Kajikawa Lab.)",
-          "startYear": "2019.Jan",
-          "endYear": "2020.Mar",
+          "title": "sumologicIntern",
+          "name": "sumo logic",
+          "startYear": "2019.sept",
+          "endYear": "2019.dec",
           "description": [
-            "Helped build the Fukan System",
-            "Wrote using React + Redux + Typescript"
+            "infrastructue engineer",
+            ""
           ]
         },
         {
-          "title": "summerIntern",
-          "name": "AlpacaJapan Co., Ltd.",
-          "startYear": "2019.Aug",
-          "endYear": "2019.Sep",
+          "title": "ibmIntern",
+          "name": "ibm canada",
+          "startYear": "2018.sept",
+          "endYear": "2018.dec",
           "description": [
-            "Machine Learning Engineer",
-            "Build a model to predict the stock market trends.",
-            "Build a Tensorflow-based AutoMl model, AdaNet, using PyTorch"
+            "full stack engineer",
+            ""
           ]
         },
         {
-          "title": "stepIntern",
-          "name": "Google Japan",
-          "startYear": "2019.Oct",
-          "endYear": "2019.Nov",
+          "title": "uxpsystemsIntern",
+          "name": "uxp systems (an amdocs company)",
+          "startYear": "2018.jan",
+          "endYear": "2018.apr",
           "description": [
-            "Joined as a STEP Intern, and worked at the SUGC team (GEO)",
-            "Migrated the back-end server of the reviews widget to a new one",
-            "Migrated the front-end of the reviews widget from legacy to a new Google oriented UI framework"
+            "java developer",
+            ""
           ]
         }
       ],

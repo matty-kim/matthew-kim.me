@@ -11,7 +11,7 @@ class FooterContainer extends React.Component<Styles> {
     return (
       <Paper className={classes.footerContainer}>
         <Typography className={classes.footerText}>
-          Made with ❤︎ by sff1019< br/>Copyright 2020.
+          matthew kim< br/>Copyright 2020.
         </Typography>
       </Paper>
     );
