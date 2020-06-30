@@ -1,35 +1,29 @@
 {
   "id": "education",
   "en": {
-    "title": "Education",
+    "title": "education",
     "data": [
       {
-        "title": "highschool",
-        "name": "Shirayuri High School",
-        "startYear": "2014",
-        "endYear": "2016",
-        "description": [
-          "Study abroad program with YFU. Studied in Michigan, USA for a year."
-        ]
-      },
-      {
         "title": "bachelor",
-        "name": "Tokyo Institute of Technology",
-        "startYear": "2014",
-        "endYear": "2016",
+        "name": "university of waterloo",
+        "startYear": "2015",
+        "endYear": "2020",
         "description": [
-          "GPA: 3.73 / 4.50",
-          "Bachelor thesis: 'Generalization measures using Information Matrices for Deep Neural Network' advised by Assoc. Prof. Rio Yokota",
-          "Tech Leader and Speaker team for TEDxTitech",
-          "Studied abroad with EPATS"
+          "bachelor of applied science, with distinction",
+          "major: computer engineering, honours",
+          "president's scholarship",
+          "mississauga chapter of professional engineers ontario (peo) scholarship",
+          "convocation canceled due to corona :(("
         ]
       },
       {
-        "title": "master",
-        "name": "Tokyo Institute of Technology",
-        "startYear": "2014",
-        "endYear": "Curr",
-        "description": ["I will continue working with Assoc. Prof. Rio Yokota."]
+        "title": "highschool",
+        "name": "st. joan of arc catholic secondary school",
+        "startYear": "2011",
+        "endYear": "2015",
+        "description": [
+          "where i discovered alcohol"
+        ]
       }
     ],
     "img": {

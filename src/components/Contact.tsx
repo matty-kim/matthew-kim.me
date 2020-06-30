@@ -50,7 +50,7 @@ class Contact extends React.Component<Props & RootStyles & Styles> {
               </Link>
             </Grid>
             <Grid item>
-              <Link href={aboutData['en'].linkdin} className={classes.snsLink}>
+              <Link href={aboutData['en'].linkedin} className={classes.snsLink}>
                 <FontAwesomeIcon className={classes.snsIcon} icon={faLinkedin} />
               </Link>
             </Grid>
