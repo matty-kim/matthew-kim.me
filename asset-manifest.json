@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/matthew-kim.me/static/css/main.9d314050.chunk.css",
+    "main.js": "/matthew-kim.me/static/js/main.3177acab.chunk.js",
+    "main.js.map": "/matthew-kim.me/static/js/main.3177acab.chunk.js.map",
+    "runtime-main.js": "/matthew-kim.me/static/js/runtime-main.83e129eb.js",
+    "runtime-main.js.map": "/matthew-kim.me/static/js/runtime-main.83e129eb.js.map",
+    "static/js/2.6cb9b678.chunk.js": "/matthew-kim.me/static/js/2.6cb9b678.chunk.js",
+    "static/js/2.6cb9b678.chunk.js.map": "/matthew-kim.me/static/js/2.6cb9b678.chunk.js.map",
+    "index.html": "/matthew-kim.me/index.html",
+    "precache-manifest.9dc8c72381d77ca3c4df92925925968c.js": "/matthew-kim.me/precache-manifest.9dc8c72381d77ca3c4df92925925968c.js",
+    "service-worker.js": "/matthew-kim.me/service-worker.js",
+    "static/css/main.9d314050.chunk.css.map": "/matthew-kim.me/static/css/main.9d314050.chunk.css.map",
+    "static/js/2.6cb9b678.chunk.js.LICENSE.txt": "/matthew-kim.me/static/js/2.6cb9b678.chunk.js.LICENSE.txt",
+    "static/media/education.png": "/matthew-kim.me/static/media/education.6fe14f62.png",
+    "static/media/experience.png": "/matthew-kim.me/static/media/experience.8ec877be.png",
+    "static/media/profile.png": "/matthew-kim.me/static/media/profile.bf0bb784.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83e129eb.js",
+    "static/js/2.6cb9b678.chunk.js",
+    "static/css/main.9d314050.chunk.css",
+    "static/js/main.3177acab.chunk.js"
+  ]
+}
