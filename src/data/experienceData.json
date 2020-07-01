@@ -87,42 +87,58 @@
       "subtitle": "awards",
       "data": [
         {
-          "title": "epats",
-          "name": "EPATS",
-          "startYear": "2017",
-          "endYear": "2019",
+          "title": "1st place",
+          "location": "waterloo, on",
+          "name": "ontario skills robotics",
+          "startYear": "2015",
+          "endYear": "",
           "description": [
-            "EPATS has funded my study abroad program during the summer of 2018.",
-            "Planned our own study abroad program, and made appointments by ourselves.",
-            "Traveled to 4 cities in the States, and visited numerous labs and comapnies to broadem my horizon."
+            "built and designed an arduino robot that retrieves miscellaneous objects and places them on a tall pyramid.",
+            "robot components were 3d printed."
           ]
         },
         {
-          "title": "wtm",
-          "name": "Women Techmakers 2018, Representative of Japan",
-          "startYear": "2018",
+          "title": "finalist",
+          "location": "mississauga, on",
+          "name": "ontario skills robotics",
+          "startYear": "2014",
           "endYear": "",
           "description": [
-            "A scholarship program funded by Google."
+            "built and designed a miniature arduino robot that traces a curved black line, retrieves a pale, and returns to its original position.",
+            "tested against other competitors for speed & accuracy."
           ]
         },
         {
-          "title": "hult2018",
-          "name": "Hult Prize, Tokyo Institute of Technology (Finalist)",
-          "startYear": "2018",
+          "title": "1st place",
+          "location": "guelph, on",
+          "name": "science olympics team, engineering",
+          "startYear": "2014",
           "endYear": "",
           "description": [
-            "Finalist at the Hult Prize competition in TokyoTech, along with 3 other fellow students."
+            "built and designed a miniature bridge within a given time frame using only popsicle sticks and tape.",
+            "purely tested for strength and stability",
+            "true story: our bridge was so strong it broke the testing machine"
           ]
         },
         {
-          "title": "ghc2019",
-          "name": "Grace Hopper Conference Travel Scholar",
-          "startYear": "2019",
+          "title": "3rd place",
+          "location": "guelph, on",
+          "name": "science olympics team, engineering",
+          "startYear": "2013",
           "endYear": "",
           "description": [
-            "GHC Travel Scholar was funded by Google",
-            "Joined Grace Hopper Conference in Orlando to attend numerous lectures and retreat programs."
+            "constructed a cardboard catapult designed to launch miscellaneous items.",
+            "scored on launch accuracy, power, and design."
+          ]
+        },
+        {
+          "title": "finalist",
+          "location": "waterloo, on",
+          "name": "first robotics",
+          "startYear": "2013",
+          "endYear": "",
+          "description": [
+            "built a large robot coded with an arduino and c++ that accurately loads and shoots frisbee discs into a target."
           ]
         }
       ],

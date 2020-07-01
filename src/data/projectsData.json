@@ -4,6 +4,17 @@
       "title": "projects",
       "data": [
         {
+          "name": "cluster visualization",
+          "startYear": "2019",
+          "endYear": "",
+          "description": [
+            "a hackathon project that allows for real-time visualizations of one's aws clusters.",
+            "intended use case is to help users see which clusters are currently running to find bottlenecks and to help better understand where they are connected.",
+            "built using react and nodejs",
+            "comes in dark mode"
+          ]
+        },
+        {
           "name": "nhl play by play data scraper",
           "startYear": "2018",
           "endYear": "",
@@ -11,6 +22,16 @@
             "a back-end application that takes play by play data from the nhl’s public stats api using javascript and nodejs.",
             "commands are executed through powershell and scrapes json data into .csv format to easily analyze large sets of data.",
             "data can be filtered into specific player details and events for each game for every nhl season starting from 1917-18 onwards."
+          ]
+        },
+        {
+          "name": "galactic gunfight",
+          "startYear": "2019",
+          "endYear": "",
+          "description": [
+            "developed a 2d, two-person pvp video game using construct 2",
+            "runs on all windows platforms",
+            "custom art design"
           ]
         }
       ],

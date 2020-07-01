@@ -75,20 +75,19 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
               <Typography className={classes.contentSubTitle}>
                 {getData(experienceData, locale).honor.subtitle}
               </Typography>
-              <div className={classes.listContainer}>
-                <ul className={classes.list}>
-                  {getData(experienceData, locale).honor.data.map((data: any, num: number) => (
-                    <li className={classes.honor}>
-                      <label className={classes.icon}></label>
-                      <div className={classes.listBody}>
-                        <Typography className={classes.honorTitle}>
-                          {data.name}
-                        </Typography>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <Timeline>
+                {getData(experienceData, locale).honor.data.map((data: any, num: number) => (
+                  <Event
+                    title={data.title}
+                    name={data.name}
+                    description={data.description}
+                    location={data.location}
+                    startTime={data.startYear}
+                    endTime={data.endYear}
+                    key={num}
+                  />
+                ))}
+              </Timeline>
             </Grid>
           </Grid>
         </VisibilitySensor>
