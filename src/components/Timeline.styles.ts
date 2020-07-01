@@ -75,14 +75,14 @@ export const styles = (theme: Theme) => createStyles({
   },
   location: {
     '@media (max-width: 700px)': {
-      fontSize: '0.5rem',
+      fontSize: '0.3rem',
       padding: '0.5em 1em 0.2em 1em',
       textAlign: 'center',
       width: '25%',
     },
     display: 'block',
     margin: 0,
-    padding: '0 5em 0.2em 1em',
+    padding: '0 1.2em 3em 1em',
     position: 'absolute',
     textAlign: 'right',
     transform: 'translateX(-100%)',
