@@ -78,8 +78,9 @@ export const styles = (theme: Theme) => createStyles({
     fontWeight: 'lighter',
   },
   subTitle: {
-    fontSize: '1.1rem',
+    fontSize: '1rem',
     fontWeight: 'lighter',
+    fontStyle: 'italic',
   },
   timeline: {
     '&:before': {
