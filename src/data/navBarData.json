@@ -2,6 +2,7 @@
   {"content": "about", "id": "about", "link": "./"},
   {"content": "education", "id": "education", "link": "./education"},
   {"content": "experiences", "id": "experiences", "link": "./experiences"},
+  {"content": "projects", "id": "projects", "link": "./projects"},
   {"content": "research", "id": "research", "link": "./research"},
   {"content": "contact", "id": "contact", "link": "./contact"}
 ]

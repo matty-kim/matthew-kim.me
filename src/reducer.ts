@@ -8,6 +8,7 @@ export interface State {
   experienceVisible: boolean;
   isMobileMenuOpen: boolean;
   locale: string;
+  projectsVisible: boolean;
   researchVisible: boolean;
 }
 
@@ -18,6 +19,7 @@ export const initialState: State = {
   experienceVisible: false,
   isMobileMenuOpen: false,
   locale: 'en',
+  projectsVisible: false,
   researchVisible: false,
 };
 
@@ -36,6 +38,9 @@ export const Reducer = reducerWithInitialState(initialState)
   })
   .case(ContentActions.updateLocale, (state, value) => {
     return { ...state, locale: value };
+  })
+  .case(ContentActions.updateProjectsVisibility, (state, visible) => {
+    return { ...state, projectsVisible: visible };
   })
   .case(ContentActions.updateResearchVisibility, (state, visible) => {
     return { ...state, researchVisible: visible };

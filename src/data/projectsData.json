@@ -1,0 +1,23 @@
+{
+    "id": "projects",
+    "en": {
+      "title": "projects",
+      "data": [
+        {
+          "name": "nhl play by play data scraper",
+          "startYear": "2018",
+          "endYear": "",
+          "description": [
+            "a back-end application that takes play by play data from the nhl’s public stats api using javascript and nodejs.",
+            "commands are executed through powershell and scrapes json data into .csv format to easily analyze large sets of data.",
+            "data can be filtered into specific player details and events for each game for every nhl season starting from 1917-18 onwards."
+          ]
+        }
+      ],
+      "img": {
+        "alt": "projects.png",
+        "src": "../assets/projects.png"
+      }
+    }
+  }
+  

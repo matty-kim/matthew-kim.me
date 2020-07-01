@@ -12,7 +12,7 @@ interface Props extends WithStyles<typeof styles> {
   description: [string];
   startTime: string;
   endTime: string;
-  location: string;
+  location: string | null;
   name: string;
 }
 

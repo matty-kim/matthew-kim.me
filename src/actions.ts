@@ -9,5 +9,6 @@ export const ContentActions = {
   updateEducationVisibility: actionCreator<boolean>('UPDATE_EDUCATION_VISIBILITY'),
   updateExperienceVisibility: actionCreator<boolean>('UPDATE_EXPERIENCE_VISIBILITY'),
   updateLocale: actionCreator<string>('UPDATE_LOCALE'),
+  updateProjectsVisibility: actionCreator<boolean>('UPDATE_PROJECTS_VISIBILITY'),
   updateResearchVisibility: actionCreator<boolean>('UPDATE_RESEARCH_VISIBILITY'),
 }

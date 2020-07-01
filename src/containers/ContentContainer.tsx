@@ -10,6 +10,7 @@ import { ContentActions } from "../actions";
 import Contact from '../components/Contact';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
+import Projects from '../components/Projects';
 import Research from '../components/Research';
 import SideNav from '../components/SideNav';
 import { AppState } from "../store";
@@ -20,6 +21,7 @@ export interface Handlers {
   handleCurrentContent(value: string): void;
   handleEducationVisibility(visible: boolean): void;
   handleExperienceVisibility(visible: boolean): void;
+  handleProjectsVisibility(visible: boolean): void;
   handleResearchVisibility(visible: boolean): void;
   handleMobileMenu(isOpen: boolean): void;
 }
@@ -30,6 +32,7 @@ interface Props {
   educationVisible: boolean;
   experienceVisible: boolean;
   locale: string;
+  projectsVisible: boolean;
   researchVisible: boolean;
 }
 
@@ -41,6 +44,7 @@ class ContentContainer extends React.Component<Handlers & Props & Styles> {
       handleCurrentContent,
       handleEducationVisibility,
       handleExperienceVisibility,
+      handleProjectsVisibility,
       handleResearchVisibility,
       handleContactVisibility,
       locale,
@@ -67,6 +71,11 @@ class ContentContainer extends React.Component<Handlers & Props & Styles> {
                 updateVisibility={handleExperienceVisibility}
                 updateCurrentContent={handleCurrentContent}
               />
+              <Projects
+                locale={locale}
+                updateVisibility={handleProjectsVisibility}
+                updateCurrentContent={handleCurrentContent}
+              />
               <Research
                 locale={locale}
                 updateVisibility={handleResearchVisibility}
@@ -91,6 +100,7 @@ const mapStateToProps = (appState: AppState) => {
     educationVisible: appState.state.educationVisible,
     experienceVisible: appState.state.experienceVisible,
     locale: appState.state.locale,
+    projectsVisible: appState.state.projectsVisible,
     researchVisible: appState.state.researchVisible,
   };
 };
@@ -110,6 +120,9 @@ const mapDispatchToProps = (dispatch: Dispatch): Handlers => ({
   },
   handleMobileMenu: (isOpen: boolean) => {
     dispatch(ContentActions.openMobileMenu(isOpen));
+  },
+  handleProjectsVisibility: (visible: boolean) => {
+    dispatch(ContentActions.updateProjectsVisibility(visible));
   },
   handleResearchVisibility: (visible: boolean) => {
     dispatch(ContentActions.updateResearchVisibility(visible));
