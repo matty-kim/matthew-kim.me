@@ -58,7 +58,7 @@ export const styles = (theme: Theme) => createStyles({
       padding: theme.spacing(10),
       transform: 'translateY(-50%)',
       width: '55%',
-      height: '55%',
+      height: '75%',
     },
     objectFit: 'contain',
     position: 'relative',
