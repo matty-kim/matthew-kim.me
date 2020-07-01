@@ -14,7 +14,7 @@ interface Props {
   updateCurrentContent(value: string): void;
 }
 
-class Research extends React.Component<Props & RootStyles & Styles> {
+class Skills extends React.Component<Props & RootStyles & Styles> {
   render = () => {
     const {
       classes,
@@ -115,4 +115,4 @@ export default withStyles((theme) => ({
   ...styles(theme),
   }),
   { withTheme: true },
-)(Research);
+)(Skills);
