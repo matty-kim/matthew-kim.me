@@ -51,6 +51,7 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
                   <Event
                     title={data.name + " (" + data.title + ")"}
                     description={data.description}
+                    location={data.location}
                     startTime={data.startYear}
                     endTime={data.endYear}
                     key={num}

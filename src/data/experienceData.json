@@ -3,56 +3,78 @@
   "en": {
     "title": "experience",
     "work": {
-      "subtitle": "",
+      "subtitle": "work",
       "data": [
         {
-          "title": "cupertino, ca",
+          "title": "software and automation engineer",
+          "location": "cupertino, ca",
           "name": "apple",
           "startYear": "2020.july",
           "endYear": "present",
           "description": [
-            "software and automation engineer",
             "fear team"
           ]
         },
         {
-          "title": "redwood city, ca",
+          "title": "infrastructure engineer",
+          "location": "redwood city, ca",
           "name": "sumo logic",
           "startYear": "2019.sept",
           "endYear": "2019.dec",
           "description": [
-            "infrastructure engineer",
-            ""
+            "created a kubernetes-based load-testing tool for http apis to evaluate performance at peak times such as the super bowl.",
+            "built the back-end nodejs server to be hosted on an eks cluster, creating parallel pods to generate loads up to 1 gb/sec.",
+            "leveraged react to create an interactive front-end to start load tests while displaying test history and metrics pulled from s3.",
+            "effectively implemented docker files to push images to aws ecr, and added security to http endpoints through api keys.",
+            "additional project: leveraged netflix’s edda to create a caching solution to prevent throttling due to constant aws api calls; deployed using aws cloudformation and fargate."
           ]
         },
         {
-          "title": "toronto, on",
+          "title": "full stack engineer",
+          "location": "toronto, on",
           "name": "ibm canada",
           "startYear": "2018.sept",
           "endYear": "2018.dec",
           "description": [
-            "full stack engineer",
-            ""
+            "effectively used mongo, express, and nodeJS to implement the back-end of a conversational banking mobile app proof-of-concept.",
+            "built the front-end of an internal web application using es6 javascript, react, redux, and css3 as per design specifications.",
+            "support in the work of an augmented reality ios app involving object sharing between devices using ar cloud and swift."
           ]
         },
         {
-          "title": "toronto, on",
+          "title": "back-end developer",
+          "location": "toronto, on",
           "name": "uxp systems, an amdocs company",
           "startYear": "2018.jan",
           "endYear": "2018.apr",
           "description": [
-            "back-end developer",
-            ""
+            "independently designed and developed java / groovy classes on the enterprise platform using spring and intellij.",
+            "expertise in the junit and spock framework for integration testing.",
+            "frequent use of git to manage version control / migration of multiple projects. strong familiarity with the agile environment."
           ]
         },
         {
-          "title": "mississauga, on",
+          "title": "java developer",
+          "location": "mississauga, on",
           "name": "pointclickcare",
           "startYear": "2017.may",
           "endYear": "2017.aug",
           "description": [
-            "java developer",
-            ""
+            "wrapped a drools rule engine into a mvc-based, spring boot rest api web service with over 200 rules and a client api.",
+            "used jmeter / visualvm for load testing, ensuring cpu usage was under 5% and controlling garbage collection at 100 reqs/sec.",
+            "expertise in using the elk stack (elasticsearch, logstash, kibana) for log analysis, graphs, and dashboards to present data."
+          ]
+        },
+        {
+          "title": "automation engineer",
+          "location": "mississauga, on",
+          "name": "pointclickcare",
+          "startYear": "2016.sept",
+          "endYear": "2016.dec",
+          "description": [
+            "effectively made use of the page object and page test design pattern to improve code quality and extensibility in spring.",
+            "independently automated end-to-end test cases to reduce manual regression tasks on qas through selenium web driver.",
+            "initiated lunch-and-learn sessions to teach java concepts and automation to full-time qas with no prior coding experience."
           ]
         }
       ],
@@ -62,7 +84,7 @@
       }
     },
     "honor": {
-      "subtitle": "Honors and Scholarships",
+      "subtitle": "awards",
       "data": [
         {
           "title": "epats",
