@@ -47,7 +47,7 @@ export const styles = (theme: Theme) => createStyles({
     '@media (max-width: 600px)': {
       fontSize: '1rem',
     },
-    fontSize: '1.2rem',
+    fontSize: '1.3rem',
     fontWeight: 'bold',
   },
   icon: {
@@ -74,12 +74,12 @@ export const styles = (theme: Theme) => createStyles({
     padding: '0',
   },
   location: {
-    color: "#eeeeee",
-    fontSize: '0.9rem',
+    color: "grey",
+    fontSize: '0.8rem',
     fontWeight: 'lighter',
   },
   subTitle: {
-    color: "#eeeeee",
+    color: "grey",
     fontSize: '1rem',
     fontWeight: 'lighter',
   },
