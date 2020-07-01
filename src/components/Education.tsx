@@ -49,6 +49,7 @@ class Education extends React.Component<Props & RootStyles & Styles> {
                   <Event
                     title={data.name}
                     description={data.description}
+                    location={data.location}
                     startTime={data.startYear}
                     endTime={data.endYear}
                     key={num}

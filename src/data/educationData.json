@@ -5,6 +5,7 @@
     "data": [
       {
         "title": "bachelor",
+        "location": "waterloo, on",
         "name": "university of waterloo",
         "startYear": "2015",
         "endYear": "2020",
@@ -19,6 +20,7 @@
       },
       {
         "title": "highschool",
+        "location": "mississagua, on",
         "name": "st. joan of arc catholic secondary school",
         "startYear": "2011",
         "endYear": "2015",
