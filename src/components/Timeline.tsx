@@ -60,7 +60,7 @@ class EventRaw extends React.Component<Props> {
           </Typography>
           <Typography className={classes.location}>
           {location}
-        </Typography>
+          </Typography>
           <div className={classes.description}>
             <List className={classes.list}>
             {description && description.map((item, num) =>
