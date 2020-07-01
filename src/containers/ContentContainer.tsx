@@ -11,7 +11,7 @@ import Contact from '../components/Contact';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Projects from '../components/Projects';
-import Research from '../components/Research';
+import Skills from '../components/Skills';
 import SideNav from '../components/SideNav';
 import { AppState } from "../store";
 import { Styles, styles } from './ContentContainer.styles';
@@ -22,7 +22,7 @@ export interface Handlers {
   handleEducationVisibility(visible: boolean): void;
   handleExperienceVisibility(visible: boolean): void;
   handleProjectsVisibility(visible: boolean): void;
-  handleResearchVisibility(visible: boolean): void;
+  handleSkillsVisibility(visible: boolean): void;
   handleMobileMenu(isOpen: boolean): void;
 }
 
@@ -33,7 +33,7 @@ interface Props {
   experienceVisible: boolean;
   locale: string;
   projectsVisible: boolean;
-  researchVisible: boolean;
+  skillsVisible: boolean;
 }
 
 class ContentContainer extends React.Component<Handlers & Props & Styles> {
@@ -45,7 +45,7 @@ class ContentContainer extends React.Component<Handlers & Props & Styles> {
       handleEducationVisibility,
       handleExperienceVisibility,
       handleProjectsVisibility,
-      handleResearchVisibility,
+      handleSkillsVisibility,
       handleContactVisibility,
       locale,
     } = this.props;
@@ -76,9 +76,9 @@ class ContentContainer extends React.Component<Handlers & Props & Styles> {
                 updateVisibility={handleProjectsVisibility}
                 updateCurrentContent={handleCurrentContent}
               />
-              <Research
+              <Skills
                 locale={locale}
-                updateVisibility={handleResearchVisibility}
+                updateVisibility={handleSkillsVisibility}
                 updateCurrentContent={handleCurrentContent}
               />
               <Contact
@@ -101,7 +101,7 @@ const mapStateToProps = (appState: AppState) => {
     experienceVisible: appState.state.experienceVisible,
     locale: appState.state.locale,
     projectsVisible: appState.state.projectsVisible,
-    researchVisible: appState.state.researchVisible,
+    skillsVisible: appState.state.skillsVisible,
   };
 };
 
@@ -124,8 +124,8 @@ const mapDispatchToProps = (dispatch: Dispatch): Handlers => ({
   handleProjectsVisibility: (visible: boolean) => {
     dispatch(ContentActions.updateProjectsVisibility(visible));
   },
-  handleResearchVisibility: (visible: boolean) => {
-    dispatch(ContentActions.updateResearchVisibility(visible));
+  handleSkillsVisibility: (visible: boolean) => {
+    dispatch(ContentActions.updateSkillsVisibility(visible));
   },
 });
 export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(ContentContainer));

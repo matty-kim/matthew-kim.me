@@ -4,9 +4,9 @@ import Link from '@material-ui/core/Link';
 import * as React from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 
-import researchData from '../data/researchData.json';
+import skillsData from '../data/skillsData.json';
 import { RootStyles, rootStyles } from './ComponentsRoot.styles';
-import { Styles, styles } from './Research.styles';
+import { Styles, styles } from './Skills.styles';
 
 interface Props {
   locale: string;
@@ -27,7 +27,7 @@ class Research extends React.Component<Props & RootStyles & Styles> {
       updateVisibility(isVisible);
 
       if (isVisible) {
-        updateCurrentContent(researchData.id);
+        updateCurrentContent(skillsData.id);
       }
     };
 
@@ -40,16 +40,16 @@ class Research extends React.Component<Props & RootStyles & Styles> {
       }
     };
 
-    const researchList = (dict: any) => {
+    const skillsList = (dict: any) => {
       if (dict.publications.items === undefined) {
         return (
-          <Typography className={classes.researchDescription}>Work in Progress...</Typography>
+          <Typography className={classes.skillsDescription}>Work in Progress...</Typography>
         );
       } else {
         return (
-          <div className={classes.researchDescription}>
-            {dict.publications.items.map((data: any, num: number) => (
-              <div key={num} className={classes.researchBody}>
+          <div className={classes.skillsDescription}>
+            {dict.skills.items.map((data: any, num: number) => (
+              <div key={num} className={classes.skillsBody}>
                 <Typography>
                   {data.url ? (
                     <Link className={classes.link} href={data.url} target="_blank" rel="noopener">
@@ -58,9 +58,9 @@ class Research extends React.Component<Props & RootStyles & Styles> {
                   ) : data.title}
                 </Typography>
                 <Typography>
-                {data.authors.map((item: any, itemNum: number) => {
+                {data.list.map((item: any, itemNum: number) => {
                   let isLast = false;
-                  if (itemNum === (data.authors.length - 1)) {
+                  if (itemNum === (data.list.length - 1)) {
                     isLast = true;
                   }
                   return boldText(itemNum, item.name, item.isMe, isLast)
@@ -79,31 +79,31 @@ class Research extends React.Component<Props & RootStyles & Styles> {
     };
 
     return (
-      <div id={researchData.id} className={classes.contentContainer}>
+      <div id={skillsData.id} className={classes.contentContainer}>
         <Typography className={classes.contentTitle}>
-          {getData(researchData, locale).title}
+          {getData(skillsData, locale).title}
         </Typography>
-        { getData(researchData, locale).interests && (
-          <VisibilitySensor onChange={onChange}>
-            <div>
-              <Typography className={classes.contentSubTitle}>
-                {getData(researchData, locale).interests.title}
-              </Typography>
-              <Typography className={classes.researchDescription}>
-                {getData(researchData, locale).interests.description}
-              </Typography>
-            </div>
-          </VisibilitySensor>
-        )}
-        { getData(researchData, locale).publications && (
+        { getData(skillsData, locale).skills && (
         <VisibilitySensor onChange={onChange}>
           <div>
             <Typography className={classes.contentSubTitle}>
-              {getData(researchData, locale).publications.title}
+              {getData(skillsData, locale).skills.title}
             </Typography>
-            {researchList(getData(researchData, locale))}
+            {skillsList(getData(skillsData, locale))}
           </div>
         </VisibilitySensor>
+        )}
+        { getData(skillsData, locale).interests && (
+          <VisibilitySensor onChange={onChange}>
+            <div>
+              <Typography className={classes.contentSubTitle}>
+                {getData(skillsData, locale).interests.title}
+              </Typography>
+              <Typography className={classes.skillsDescription}>
+                {getData(skillsData, locale).interests.description}
+              </Typography>
+            </div>
+          </VisibilitySensor>
         )}
       </div>
     );

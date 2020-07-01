@@ -1,7 +1,7 @@
 import { createStyles, Theme, WithStyles } from '@material-ui/core/styles';
 
 export const styles = (theme: Theme) => createStyles({
-  researchDescription: {
+  skillsDescription: {
     '@media (max-width: 1280px)': {
       fontSize: '0.9rem',
       padding: theme.spacing(2),
@@ -11,7 +11,7 @@ export const styles = (theme: Theme) => createStyles({
     paddingBottom: theme.spacing(2),
     paddingTop: theme.spacing(2),
   },
-  researchBody: {
+  skillsBody: {
     '@media (min-width: 960px)': {
       paddingLeft: theme.spacing(2),
     },

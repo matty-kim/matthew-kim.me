@@ -9,7 +9,7 @@ export interface State {
   isMobileMenuOpen: boolean;
   locale: string;
   projectsVisible: boolean;
-  researchVisible: boolean;
+  skillsVisible: boolean;
 }
 
 export const initialState: State = {
@@ -20,7 +20,7 @@ export const initialState: State = {
   isMobileMenuOpen: false,
   locale: 'en',
   projectsVisible: false,
-  researchVisible: false,
+  skillsVisible: false,
 };
 
 export const Reducer = reducerWithInitialState(initialState)
@@ -42,8 +42,8 @@ export const Reducer = reducerWithInitialState(initialState)
   .case(ContentActions.updateProjectsVisibility, (state, visible) => {
     return { ...state, projectsVisible: visible };
   })
-  .case(ContentActions.updateResearchVisibility, (state, visible) => {
-    return { ...state, researchVisible: visible };
+  .case(ContentActions.updateSkillsVisibility, (state, visible) => {
+    return { ...state, skillsVisible: visible };
   })
   .case(ContentActions.updateContactVisibility, (state, visible) => {
     return { ...state, contactVisible: visible };
