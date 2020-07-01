@@ -74,13 +74,14 @@ export const styles = (theme: Theme) => createStyles({
     padding: '0',
   },
   location: {
+    color: "#eeeeee",
     fontSize: '0.9rem',
     fontWeight: 'lighter',
   },
   subTitle: {
+    color: "#eeeeee",
     fontSize: '1rem',
     fontWeight: 'lighter',
-    fontStyle: 'italic',
   },
   timeline: {
     '&:before': {
