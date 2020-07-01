@@ -3,6 +3,6 @@
   {"content": "education", "id": "education", "link": "./education"},
   {"content": "experiences", "id": "experiences", "link": "./experiences"},
   {"content": "projects", "id": "projects", "link": "./projects"},
-  {"content": "research", "id": "research", "link": "./research"},
+  {"content": "skills", "id": "skills", "link": "./skills"},
   {"content": "contact", "id": "contact", "link": "./contact"}
 ]

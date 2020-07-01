@@ -41,7 +41,7 @@ class Skills extends React.Component<Props & RootStyles & Styles> {
     };
 
     const skillsList = (dict: any) => {
-      if (dict.publications.items === undefined) {
+      if (dict.skills.items === undefined) {
         return (
           <Typography className={classes.skillsDescription}>Work in Progress...</Typography>
         );
