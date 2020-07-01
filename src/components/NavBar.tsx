@@ -35,14 +35,14 @@ class NavBar extends React.Component<Props & Styles> {
             ))}
           </ListItem >
         </List>
-        <div className={classes.translate}>
+        {/* <div className={classes.translate}>
           <Button
             onClick={onClick}
             className={classes.translateButton}
           >
             {translationButton()}
           </Button>
-        </div>
+        </div> */}
       </div>
     );
   }
