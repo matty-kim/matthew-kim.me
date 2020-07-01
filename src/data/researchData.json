@@ -9,6 +9,16 @@
     "publications": {
       "title": "Publications",
       "items": [
+        {
+          "title": "This is a test",
+          "authors": [
+            {"name": "name1", "link": "hoge/hoge", "isMe": "false"}, 
+            {"name": "name2", "link": "hoge/hoge", "isMe": "true"},
+            {"name": "haha3", "link": "hoge/hoge", "isMe": "false"}
+          ],
+          "conference": "arxiv",
+          "link": "hoge/hoge"
+        }
       ]
     }
   },
