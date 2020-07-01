@@ -4,7 +4,7 @@
     "title": "skills",
     "interests": {
       "title": "interests",
-      "description": "Machine Learning, Generalization of Deep Learning, Optimization, Affective Computing"
+      "description": "ai & machine learning, apple, hockey, toronto sports, pokemon, underground korean music, black lives matter"
     },
     "skills": {
       "title": "software",
@@ -12,16 +12,16 @@
         {
           "title": "languages:",
           "list": [
-            {"name": "python", "link": "hoge/hoge", "isMe": "false"}, 
-            {"name": "javascript", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "java", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "groovy", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "c++", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "sql", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "bash", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "swift", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "matlab", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "vhdl", "link": "hoge/hoge", "isMe": "false"}
+            {"name": "python", "link": "hoge/hoge"}, 
+            {"name": "javascript", "link": "hoge/hoge"},
+            {"name": "java", "link": "hoge/hoge"},
+            {"name": "groovy", "link": "hoge/hoge"},
+            {"name": "c++", "link": "hoge/hoge"},
+            {"name": "sql", "link": "hoge/hoge"},
+            {"name": "bash", "link": "hoge/hoge"},
+            {"name": "swift", "link": "hoge/hoge"},
+            {"name": "matlab", "link": "hoge/hoge"},
+            {"name": "vhdl", "link": "hoge/hoge"}
           ],
           "conference": "",
           "link": "hoge/hoge"
@@ -29,13 +29,13 @@
         {
           "title": "web:",
           "list": [
-            {"name": "html", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "css", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "nodejs", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "express", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "react", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "redux", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "restful api", "link": "hoge/hoge", "isMe": "false"}
+            {"name": "html", "link": "hoge/hoge"},
+            {"name": "css", "link": "hoge/hoge"},
+            {"name": "nodejs", "link": "hoge/hoge"},
+            {"name": "express", "link": "hoge/hoge"},
+            {"name": "react", "link": "hoge/hoge"},
+            {"name": "redux", "link": "hoge/hoge"},
+            {"name": "restful api", "link": "hoge/hoge"}
           ],
           "conference": "",
           "link": "hoge/hoge"
@@ -43,18 +43,18 @@
         {
           "title": "tools / concepts:",
           "list": [
-            {"name": "aws", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "git", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "docker", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "kubernetes", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "agile", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "mvc", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "mongo", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "elasticsearch", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "drools", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "spring", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "android studio", "link": "hoge/hoge", "isMe": "false"},
-            {"name": "jenkins", "link": "hoge/hoge", "isMe": "false"}
+            {"name": "aws", "link": "hoge/hoge"},
+            {"name": "git", "link": "hoge/hoge"},
+            {"name": "docker", "link": "hoge/hoge"},
+            {"name": "kubernetes", "link": "hoge/hoge"},
+            {"name": "agile", "link": "hoge/hoge"},
+            {"name": "mvc", "link": "hoge/hoge"},
+            {"name": "mongo", "link": "hoge/hoge"},
+            {"name": "elasticsearch", "link": "hoge/hoge"},
+            {"name": "drools", "link": "hoge/hoge"},
+            {"name": "spring", "link": "hoge/hoge"},
+            {"name": "android studio", "link": "hoge/hoge"},
+            {"name": "jenkins", "link": "hoge/hoge"}
           ],
           "conference": "",
           "link": "hoge/hoge"

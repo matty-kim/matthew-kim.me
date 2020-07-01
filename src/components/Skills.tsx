@@ -31,13 +31,9 @@ class Skills extends React.Component<Props & RootStyles & Styles> {
       }
     };
 
-    const boldText = (num: number, str: string, isBold: boolean, isLast: boolean) => {
+    const checkLast = (num: number, str: string, isLast: boolean) => {
       let comma = isLast ? '' : ', ';
-      if (isBold) {
-        return (<span  key={num}><b>{str}</b>{comma}</span>);
-      } else {
-        return (<span  key={num}>{str}{comma}</span>);
-      }
+      return (<span  key={num}>{str}{comma}</span>);
     };
 
     const skillsList = (dict: any) => {
@@ -63,7 +59,7 @@ class Skills extends React.Component<Props & RootStyles & Styles> {
                   if (itemNum === (data.list.length - 1)) {
                     isLast = true;
                   }
-                  return boldText(itemNum, item.name, item.isMe, isLast)
+                  return checkLast(itemNum, item.name, isLast)
                 })}
                 </Typography>
                 <Typography>{data.conference}</Typography>
@@ -99,7 +95,7 @@ class Skills extends React.Component<Props & RootStyles & Styles> {
               <Typography className={classes.contentSubTitle}>
                 {getData(skillsData, locale).interests.title}
               </Typography>
-              <Typography className={classes.skillsDescription}>
+              <Typography className={classes.skillsBody}>
                 {getData(skillsData, locale).interests.description}
               </Typography>
             </div>
