@@ -70,7 +70,7 @@ export const styles = (theme: Theme) => createStyles({
       maxWidth: '80%',
     },
     '@media (min-width: 960px)': {
-      maxHeight: '100%',
+      maxHeight: '60%',
       maxWidth: '100%',
     },
   },
