@@ -76,9 +76,10 @@ export const styles = (theme: Theme) => createStyles({
   },
   role: {
     '@media (max-width: 600px)': {
-      fontSize: '0.8rem',
+      fontSize: '1.2rem',
     },
     color: 'grey',
+    fontSize: '1.2rem',
     marginTop: '10px',
   },
   snsContainer: {
