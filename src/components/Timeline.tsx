@@ -13,6 +13,7 @@ interface Props extends WithStyles<typeof styles> {
   startTime: string;
   endTime: string;
   location: string;
+  company: string | null;
 }
 
 const TimelineRaw: React.FC<Styles> = (props) => {
@@ -30,6 +31,7 @@ class EventRaw extends React.Component<Props> {
   render = () => {
     const {
       classes,
+      company,
       description,
       endTime,
       startTime,
@@ -51,7 +53,10 @@ class EventRaw extends React.Component<Props> {
         {dateString()}
         <div className={classes.body}>
           <Typography className={classes.eventTitle}>
-            {title}
+            {company}
+          </Typography>
+          <Typography className={classes.subTitle}>
+            {company}
           </Typography>
           <Typography className={classes.location}>
           {location}

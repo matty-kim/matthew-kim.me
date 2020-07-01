@@ -74,7 +74,11 @@ export const styles = (theme: Theme) => createStyles({
     padding: '0',
   },
   location: {
-    fontSize: '0.7rem',
+    fontSize: '0.9rem',
+    fontWeight: 'lighter',
+  },
+  subTitle: {
+    fontSize: '1.2rem',
     fontWeight: 'lighter',
   },
   timeline: {
