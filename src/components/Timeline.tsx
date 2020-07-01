@@ -49,13 +49,13 @@ class EventRaw extends React.Component<Props> {
       <li className={classes.event}>
         <label className={classes.icon}></label>
         {dateString()}
-        <Typography className={classes.location}>
-          {location}
-        </Typography>
         <div className={classes.body}>
           <Typography className={classes.eventTitle}>
             {title}
           </Typography>
+          <Typography className={classes.location}>
+          {location}
+        </Typography>
           <div className={classes.description}>
             <List className={classes.list}>
             {description && description.map((item, num) =>
