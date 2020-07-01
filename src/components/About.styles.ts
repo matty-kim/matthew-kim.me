@@ -58,6 +58,7 @@ export const styles = (theme: Theme) => createStyles({
       padding: theme.spacing(10),
       transform: 'translateY(-50%)',
       width: '55%',
+      height: '55%',
     },
     objectFit: 'contain',
     position: 'relative',
@@ -66,11 +67,11 @@ export const styles = (theme: Theme) => createStyles({
   profileImageContainer: {
     '@media (max-width: 960px)': {
       margin: '0 auto',
-      maxHeight: '60%',
+      maxHeight: '80%',
       maxWidth: '80%',
     },
     '@media (min-width: 960px)': {
-      maxHeight: '60%',
+      maxHeight: '100%',
       maxWidth: '100%',
     },
   },
