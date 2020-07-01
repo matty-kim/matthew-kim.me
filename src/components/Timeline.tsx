@@ -8,12 +8,12 @@ import * as React from 'react';
 import { Styles, styles } from './Timeline.styles';
 
 interface Props extends WithStyles<typeof styles> {
-  title: string;
+  title: string | null;
   description: [string];
   startTime: string;
   endTime: string;
   location: string;
-  company: string | null;
+  name: string;
 }
 
 const TimelineRaw: React.FC<Styles> = (props) => {
@@ -31,12 +31,12 @@ class EventRaw extends React.Component<Props> {
   render = () => {
     const {
       classes,
-      company,
       description,
       endTime,
       startTime,
       title,
       location,
+      name,
     } = this.props;
 
     const dateString = () => {
@@ -53,10 +53,10 @@ class EventRaw extends React.Component<Props> {
         {dateString()}
         <div className={classes.body}>
           <Typography className={classes.eventTitle}>
-            {company}
+            {name}
           </Typography>
           <Typography className={classes.subTitle}>
-            {company}
+            {title}
           </Typography>
           <Typography className={classes.location}>
           {location}

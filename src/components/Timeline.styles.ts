@@ -78,7 +78,7 @@ export const styles = (theme: Theme) => createStyles({
     fontWeight: 'lighter',
   },
   subTitle: {
-    fontSize: '1.2rem',
+    fontSize: '1.1rem',
     fontWeight: 'lighter',
   },
   timeline: {

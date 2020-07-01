@@ -47,8 +47,8 @@ class Education extends React.Component<Props & RootStyles & Styles> {
               <Timeline>
                 {getData(educationData, locale).data.map((data: any, num: number) => (
                   <Event
-                    title={data.name}
-                    company={null}
+                    name={data.name}
+                    title={null}
                     description={data.description}
                     location={data.location}
                     startTime={data.startYear}

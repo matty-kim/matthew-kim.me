@@ -50,7 +50,7 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
                 {getData(experienceData, locale).work.data.map((data: any, num: number) => (
                   <Event
                     title={data.title}
-                    company={data.name}
+                    name={data.name}
                     description={data.description}
                     location={data.location}
                     startTime={data.startYear}
