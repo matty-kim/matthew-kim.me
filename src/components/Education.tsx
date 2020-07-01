@@ -62,7 +62,7 @@ class Education extends React.Component<Props & RootStyles & Styles> {
               <img
                 className={classes.sideImage}
                 alt={getData(educationData, locale).img.alt}
-                src={require('../assets/education.png')}
+                src={require('../assets/blank.png')}
               />
             </Grid>
           </Grid>

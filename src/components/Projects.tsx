@@ -58,13 +58,13 @@ class Projects extends React.Component<Props & RootStyles & Styles> {
                 ))}
               </Timeline>
             </Grid>
-            {/* <Grid className={classes.sideImageContainer} item sm={12} md={4}>
+            <Grid className={classes.sideImageContainer} item sm={12} md={4}>
               <img
                 className={classes.sideImage}
                 alt={getData(projectsData, locale).img.alt}
-                src={require('../assets/education.png')}
+                src={require('../assets/blank.png')}
               />
-            </Grid> */}
+            </Grid>
           </Grid>
         </div>
       </VisibilitySensor>

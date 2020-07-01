@@ -33,7 +33,7 @@ class About extends React.Component<Props & RootStyles & Styles> {
             <img
               className={classes.profileImage}
               alt='profile.img'
-              src={require('../assets/profile.png')}
+              src={require('../assets/me.png')}
             />
           </Grid>
           <Grid item xs={12} md={6} container className={classes.aboutContainer}>
