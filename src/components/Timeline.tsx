@@ -49,7 +49,7 @@ class EventRaw extends React.Component<Props> {
       <li className={classes.event}>
         <label className={classes.icon}></label>
         {dateString()}
-        <Typography className={classes.date}>
+        <Typography className={classes.location}>
           {location}
         </Typography>
         <div className={classes.body}>

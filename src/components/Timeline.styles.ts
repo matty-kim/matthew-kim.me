@@ -73,6 +73,21 @@ export const styles = (theme: Theme) => createStyles({
   listItemText: {
     padding: '0',
   },
+  location: {
+    '@media (max-width: 700px)': {
+      fontSize: '0.5rem',
+      padding: '0.5em 1em 0.2em 1em',
+      textAlign: 'center',
+      width: '25%',
+    },
+    display: 'block',
+    margin: 0,
+    padding: '0 5em 0.2em 1em',
+    position: 'absolute',
+    textAlign: 'right',
+    transform: 'translateX(-100%)',
+    width: theme.spacing(15),
+  },
   timeline: {
     '&:before': {
       backgroundColor: 'black',
