@@ -13,7 +13,7 @@ export const styles = (theme: Theme) => createStyles({
     '@media (max-width: 960px)': {
       display: 'none',
     },
-    padding: '1rem 5rem',
+    padding: '1rem 0rem',
     position: 'relative',
   },
   emptyContainer: {

@@ -60,13 +60,13 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
                 ))}
               </Timeline>
             </Grid>
-            <Grid className={classes.sideImageContainer} item sm={12} md={4}>
+            {/* <Grid className={classes.sideImageContainer} item sm={12} md={4}>
               <img
                 className={classes.sideImage}
                 alt={getData(experienceData, locale).work.img.alt}
                 src={require('../assets/experience.png')}
               />
-            </Grid>
+            </Grid> */}
           </Grid>
         </VisibilitySensor>
         <VisibilitySensor onChange={onChange}>
