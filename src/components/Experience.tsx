@@ -71,7 +71,7 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
         </VisibilitySensor>
         <VisibilitySensor onChange={onChange}>
           <Grid container justify='center'>
-            <Grid item sm={12}>
+            <Grid item sm={12} md={8}>
               <Typography className={classes.contentSubTitle}>
                 {getData(experienceData, locale).honor.subtitle}
               </Typography>

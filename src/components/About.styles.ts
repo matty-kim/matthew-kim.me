@@ -66,7 +66,7 @@ export const styles = (theme: Theme) => createStyles({
   profileImageContainer: {
     '@media (max-width: 960px)': {
       margin: '0 auto',
-      maxHeight: '80%',
+      maxHeight: '60%',
       maxWidth: '80%',
     },
     '@media (min-width: 960px)': {
