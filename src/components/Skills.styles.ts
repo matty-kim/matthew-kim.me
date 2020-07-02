@@ -14,6 +14,9 @@ export const styles = (theme: Theme) => createStyles({
   skillsBody: {
     '@media (min-width: 960px)': {
       padding: theme.spacing(2),
+    },
+    '@media (max-width: 1280px)': {
+      padding: theme.spacing(2),
       textAlign: 'center',
     },
     paddingBottom: theme.spacing(2)
