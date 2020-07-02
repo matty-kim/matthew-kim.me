@@ -93,8 +93,7 @@ export const styles = (theme: Theme) => createStyles({
   snsIcon: {
     fontSize: '2.0rem',
     paddingBottom: theme.spacing(3),
-    paddingLeft: theme.spacing(1.5),
-    paddingRight: theme.spacing(1.5),
+    paddingRight: theme.spacing(3),
     paddingTop: theme.spacing(3),
   },
   snsLink: {
