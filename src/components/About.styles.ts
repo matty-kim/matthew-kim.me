@@ -33,6 +33,7 @@ export const styles = (theme: Theme) => createStyles({
       '-webkit-transform': 'translateY(-50%)',
       maxHeight: '100%',
       position: 'absolute',
+      right: '30%',
       top: '50%',
       transform: 'translateY(-50%)',
     },
