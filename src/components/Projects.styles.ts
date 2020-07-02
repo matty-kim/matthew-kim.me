@@ -46,25 +46,6 @@ export const styles = (theme: Theme) => createStyles({
     position: 'relative',
     top: '-2.075em',
   },
-  description: {
-    '@media (max-width: 600px)': {
-      fontSize: '0.85rem',
-    },
-    paddingLeft: theme.spacing(2),
-    paddingTop: theme.spacing(1),
-  },
-  descriptionList: {
-    listStyle: 'circle !important',
-    listStyleType: 'circle !important',
-    padding: '0',
-  },
-  descriptionListItem: {
-    display: 'list-item',
-    padding: '0',
-  },
-  descriptionListItemText: {
-    padding: '0',
-  },
 });
 
 export type Styles = WithStyles<typeof styles>;
