@@ -10,8 +10,8 @@
           "description": [
             "a hackathon project that allows for real-time visualizations of one's aws clusters.",
             "intended use case is to help users see which clusters are currently running to find bottlenecks and to help better understand where they are connected.",
-            "built using react and nodejs",
-            "comes in dark mode"
+            "built using react and nodejs.",
+            "comes in dark mode."
           ]
         },
         {
@@ -29,9 +29,9 @@
           "startYear": "2015",
           "endYear": "",
           "description": [
-            "developed a 2d, two-person pvp video game using construct 2",
-            "runs on all windows platforms",
-            "custom art design"
+            "developed a 2d, two-person pvp video game using construct 2.",
+            "runs on all windows platforms.",
+            "custom art design."
           ]
         }
       ],
