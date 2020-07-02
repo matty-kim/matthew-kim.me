@@ -55,8 +55,8 @@ export const styles = (theme: Theme) => createStyles({
     },
     '@media (min-width: 960px)': {
       float: 'right',
-      left: '10%',
-      padding: theme.spacing(5),
+      left: '15%',
+      padding: theme.spacing(10),
       transform: 'translateY(-50%)',
       width: '75%',
       height: '60%',
