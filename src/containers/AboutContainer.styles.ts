@@ -3,7 +3,7 @@ import { createStyles, Theme, WithStyles } from '@material-ui/core/styles';
 export const styles = (theme: Theme) => createStyles({
   container: {
     '&:after': {
-      backgroundImage: `url('https://github.com/sff1019/my-portfolio/blob/master/src/assets/abstract_header.png?raw=true')`,
+      backgroundImage: `url('https://github.com/matty-kim/matthew-kim.me/blob/master/src/assets/abstract_header.png?raw=true')`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: '100%',
       bottom: '0',
