@@ -36,8 +36,8 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
     }
 
     return (
-      <div id={experienceData.id} className={classes.contentContainer}>
-        <VisibilitySensor onChange={onChange}>
+      <VisibilitySensor onChange={onChange}>
+        <div id={experienceData.id} className={classes.contentContainer}>
           <Grid container justify='center'>
             <Grid item sm={12} md={8}>
               <Typography className={classes.contentTitle}>
@@ -68,8 +68,6 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
               />
             </Grid>
           </Grid>
-        </VisibilitySensor>
-        <VisibilitySensor onChange={onChange}>
           <Grid container justify='center'>
             <Grid item sm={12} md={8}>
               <Typography className={classes.contentSubTitle}>
@@ -97,8 +95,8 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
               />
             </Grid>
           </Grid>
-        </VisibilitySensor>
-      </div>
+        </div>
+      </VisibilitySensor>
     );
   }
 }
