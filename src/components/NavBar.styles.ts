@@ -94,6 +94,7 @@ export const styles = (theme: Theme) => createStyles({
   },
   translateButton: {
     fontSize: '0.8rem',
+    textTransform: 'lowercase',
   },
 });
 

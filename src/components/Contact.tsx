@@ -14,6 +14,7 @@ import { RootStyles, rootStyles } from './ComponentsRoot.styles';
 import { Styles, styles } from './Contact.styles';
 
 interface Props {
+  locale: string;
   updateVisibility(visible: boolean): void;
   updateCurrentContent(value: string): void;
 }
@@ -22,6 +23,7 @@ class Contact extends React.Component<Props & RootStyles & Styles> {
   render = () => {
     const {
       classes,
+      locale,
       updateCurrentContent,
       updateVisibility,
     } = this.props;
@@ -32,16 +34,20 @@ class Contact extends React.Component<Props & RootStyles & Styles> {
       if (isVisible) {
         updateCurrentContent(contactData.id)
       }
+    };
+
+    const getData = (obj: any, key: string) => {
+      return obj[key];
     }
 
     return (
       <VisibilitySensor onChange={onChange}>
         <div id={contactData.id} className={classes.contentContainer}>
           <Typography className={classes.contentTitle}>
-            {contactData.title}
+            {getData(contactData, locale).title}
           </Typography>
           <Typography className={classes.contactDescription}>
-            <FontAwesomeIcon className={classes.mailIcon} icon={faEnvelope} /> {contactData.mail}
+            <FontAwesomeIcon className={classes.mailIcon} icon={faEnvelope} /> {getData(contactData, locale).mail}
           </Typography>
           <Grid item container className={classes.snsContainer}>
             <Grid item>

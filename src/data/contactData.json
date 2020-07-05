@@ -1,5 +1,11 @@
 {
-  "title": "contact",
   "id": "contact",
-  "mail": "matthew.kim919@gmail.com"
+  "en": {
+    "title": "contact",
+    "mail": "matthew.kim919@gmail.com"
+  },
+  "kr": {
+    "title": "연락처",
+    "mail": "matthew.kim919@gmail.com"
+  }
 }

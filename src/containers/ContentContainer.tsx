@@ -82,6 +82,7 @@ class ContentContainer extends React.Component<Handlers & Props & Styles> {
                 updateCurrentContent={handleCurrentContent}
               />
               <Contact
+                locale={locale}
                 updateVisibility={handleContactVisibility}
                 updateCurrentContent={handleCurrentContent}
               />
