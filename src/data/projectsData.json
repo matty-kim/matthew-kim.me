@@ -74,7 +74,11 @@
             "커스텀 예술 디자인."
           ]
         }
-      ]
+      ],
+      "img": {
+        "alt": "projects.png",
+        "src": "../assets/projects.png"
+      }
     }
   }
   
