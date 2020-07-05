@@ -76,6 +76,17 @@
             "independently automated end-to-end test cases to reduce manual regression tasks on qas through selenium web driver.",
             "initiated lunch-and-learn sessions to teach java concepts and automation to full-time qas with no prior coding experience."
           ]
+        },
+        {
+          "title": "website developer",
+          "location": "toronto, on",
+          "name": "spot cinema inc.",
+          "startYear": "2014.july",
+          "endYear": "2014.aug",
+          "description": [
+            "optimized company website up to 50% by combining sprites, browser caching, and defer parsing.",
+            "increased search engine optimization by defining key words, adding appropriate page urls, and improving page content, resulting in the website appearing on the first page of google."
+          ]
         }
       ],
       "img": {
@@ -223,6 +234,17 @@
             "spring에서 코드 품질과 확장 성을 향상시키기 위해 페이지 객체와 페이지 테스트 디자인 패턴을 효과적으로 사용했습니다.",
             "자동 엔드 투 엔드 테스트 사례로 셀레늄 웹 드라이버를 통해 qa의 수동 회귀 작업을 줄입니다.",
             "사전 코딩 경험없이 풀 타임 qa에 자바 개념과 자동화를 가르치기 위해 점심과 학습 세션을 시작했습니다."
+          ]
+        },
+        {
+          "title": "웹 사이트 개발자",
+          "location": "토론토, 온타리오",
+          "name": "spot cinema inc.",
+          "startYear": "2014.7월",
+          "endYear": "2014.8월",
+          "description": [
+            "브라우저 캐싱과 스프라이트 결합으로 최대 50%의 회사 웹 사이트 최적화했습니다",
+            "키워드를 정의하고, 적절한 페이지 url을 추가하고, 페이지 내용을 개선하여 검색 엔진 최적화를 향상시켜 웹 사이트를 google 첫 페이지에 표시합니다."
           ]
         }
       ],
