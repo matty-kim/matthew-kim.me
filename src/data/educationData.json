@@ -25,6 +25,10 @@
         "startYear": "2011",
         "endYear": "2015",
         "description": [
+          "honour roll.",
+          "computer engineering and computer science award.",
+          "ict shsm.",
+          "100+ hours of volunteer work.",
           "nobody here was religious.",
           "where i discovered alcohol."
         ]
@@ -36,7 +40,7 @@
         "startYear": "2003",
         "endYear": "2015",
         "description": [
-          "every saturday morning rest in peace.",
+          "wanted to die every saturday morning.",
           "was supposed to learn korean but only learned kpop instead."
         ]
       }
@@ -46,36 +50,49 @@
       "src": "../assets/education.png"
     }
   },
-  "jp": {
-    "title": "Education",
+  "kr": {
+    "title": "교육",
     "data": [
       {
-        "title": "highschool",
-        "name": "白百合学園高等学校",
-        "startYear": "2014",
-        "endYear": "2016",
-        "description": [
-          "高校1年の時に1年間アメリカのミシガン州にて高校留学を行った．"
-        ]
-      },
-      {
         "title": "bachelor",
-        "name": "東京工業大学",
-        "startYear": "2014",
-        "endYear": "2016",
+        "location": "워털루, 온타리오",
+        "name": "워털루 대학교",
+        "startYear": "2015",
+        "endYear": "2020",
         "description": [
-          "GPA: 3.73 / 4.50",
-          "卒業論文：「深層ニューラルネットワークにおける情報行列を用いた汎化指標誤差推定」（横田理央研究室）",
-          "TEDxTitechにてスピーカーチームやテックチームのリーダとして活動",
-          "EPATSという学生団体で海外留学を行なった"
+          "응용 과학 학사, 구별.",
+          "전공 : 컴퓨터 공학, 영예.",
+          "회장 장학금.",
+          "전문 엔지니어 온타리오 (peo) 장학금의 mississauga 장.",
+          "cs에 갔어야하지만 적어도이 싼 반지가 있습니다.",
+          "코로나로 인해 소집 또는 대학원 여행이 없었습니다 :(("
         ]
       },
       {
-        "title": "master",
-        "name": "東京工業大学",
-        "startYear": "2014",
-        "endYear": "Curr",
-        "description": ["引き続き横田理央研究室に所属する．"]
+        "title": "highschool",
+        "location": "mississauga, 온타리오",
+        "name": "st. joan of arc 카톨릭 고등학교",
+        "startYear": "2011",
+        "endYear": "2015",
+        "description": [
+          "명예 롤.",
+          "컴퓨터 공학과 컴퓨터 과학상.",
+          "ict shsm.",
+          "100 시간 이상의 봉사 활동.",
+          "여기 아무도 종교적이지 않았습니다.",
+          "내가 술을 발견 한 곳."
+        ]
+      },
+      {
+        "title": "koreanschool",
+        "location": "mississauga, 온타리오",
+        "name": "릭 한센 중등 학교 (한글 학교)",
+        "startYear": "2003",
+        "endYear": "2015",
+        "description": [
+          "매주 토요일 아침에 나는 죽고 싶었다.",
+          "한국어를 배워야했지만 kpop 만 배웠습니다."
+        ]
       }
     ],
     "img": {

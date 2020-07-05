@@ -53,12 +53,12 @@ class NavBar extends React.Component<Props & Styles> {
               <MenuIcon />
             </IconButton>
             <div className={classes.emptyContainer} />
-            {/* <Button
+            <Button
               onClick={onTranslationClick}
               className={classes.translateButton}
             >
               {translationButton()}
-            </Button> */}
+            </Button>
           </Toolbar>
         </AppBar>
         <Drawer open={isMobileMenuOpen} onClose={onChange(false)}>

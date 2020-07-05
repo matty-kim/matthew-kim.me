@@ -9,7 +9,7 @@ import FooterContainer from './containers/FooterContainer';
 const theme = createMuiTheme({
   typography: {
     fontFamily: [
-      '"Noto Sans JP"',
+      '"Noto Sans KR"',
       'sans-serif',
     ].join(','),
   },

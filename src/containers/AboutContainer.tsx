@@ -34,7 +34,7 @@ class AboutContainer extends React.Component<Handlers & Props & Styles> {
 
     const onClick = () => {
       if (locale === "en") {
-        updateLocale('jp');
+        updateLocale('kr');
       } else {
         updateLocale('en');
       }
@@ -43,11 +43,11 @@ class AboutContainer extends React.Component<Handlers & Props & Styles> {
     const translationButton = () => {
       if (locale === "en") {
         return (
-          <span><b>EN</b> / JP</span>
+          <span><b>en</b> / kr</span>
         )
       } else {
         return (
-          <span>EN / <b>JP</b></span>
+          <span>en / <b>kr</b></span>
         )
       }
     }

@@ -62,15 +62,65 @@
       ]
     }
   },
-  "jp": {
-    "title": "Research",
+  "kr": {
+    "title": "기술",
     "interests": {
-      "title": "Research Interests",
-      "description": "機械学習，深層学習の汎化，最適化，アフェクティブコンピューティング"
+      "title": "관심사와 취미",
+      "description": "ai & machine learning, apple, hockey, toronto sports, pokemon, underground korean music, black lives matter"
     },
-    "publications": {
-      "title": "Publications",
+    "skills": {
+      "title": "소프트웨어",
       "items": [
+        {
+          "title": "언어:",
+          "list": [
+            {"name": "python", "link": "hoge/hoge"}, 
+            {"name": "javascript", "link": "hoge/hoge"},
+            {"name": "java", "link": "hoge/hoge"},
+            {"name": "groovy", "link": "hoge/hoge"},
+            {"name": "c++", "link": "hoge/hoge"},
+            {"name": "sql", "link": "hoge/hoge"},
+            {"name": "bash", "link": "hoge/hoge"},
+            {"name": "swift", "link": "hoge/hoge"},
+            {"name": "matlab", "link": "hoge/hoge"},
+            {"name": "vhdl", "link": "hoge/hoge"}
+          ],
+          "conference": "",
+          "link": "hoge/hoge"
+        },
+        {
+          "title": "웹:",
+          "list": [
+            {"name": "html", "link": "hoge/hoge"},
+            {"name": "css", "link": "hoge/hoge"},
+            {"name": "nodejs", "link": "hoge/hoge"},
+            {"name": "express", "link": "hoge/hoge"},
+            {"name": "react", "link": "hoge/hoge"},
+            {"name": "redux", "link": "hoge/hoge"},
+            {"name": "restful api", "link": "hoge/hoge"}
+          ],
+          "conference": "",
+          "link": "hoge/hoge"
+        },
+        {
+          "title": "도구 / 개념:",
+          "list": [
+            {"name": "aws", "link": "hoge/hoge"},
+            {"name": "git", "link": "hoge/hoge"},
+            {"name": "docker", "link": "hoge/hoge"},
+            {"name": "kubernetes", "link": "hoge/hoge"},
+            {"name": "agile", "link": "hoge/hoge"},
+            {"name": "mvc", "link": "hoge/hoge"},
+            {"name": "mongo", "link": "hoge/hoge"},
+            {"name": "elasticsearch", "link": "hoge/hoge"},
+            {"name": "drools", "link": "hoge/hoge"},
+            {"name": "spring", "link": "hoge/hoge"},
+            {"name": "android studio", "link": "hoge/hoge"},
+            {"name": "jenkins", "link": "hoge/hoge"}
+          ],
+          "conference": "",
+          "link": "hoge/hoge"
+        }
       ]
     }
   }

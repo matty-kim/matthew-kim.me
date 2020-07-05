@@ -115,7 +115,7 @@ export const rootStyles = (theme: Theme) => createStyles({
     '@media (max-width: 600px)': {
       fontSize: '3rem',
     },
-    fontFamily: "'Noto Serif JP', serif",
+    fontFamily: "'Noto Serif KR', serif",
     fontSize: '4rem',
     fontWeight: 'bold',
   },

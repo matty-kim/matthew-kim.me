@@ -1,37 +1,37 @@
 {
     "id": "projects",
     "en": {
-      "title": "projects",
+      "title": "프로젝트",
       "data": [
         {
-          "name": "cluster visualization",
+          "name": "클러스터 시각화",
           "startYear": "2019",
           "endYear": "",
           "description": [
-            "a hackathon project that allows for real-time visualizations of one's aws clusters.",
-            "intended use case is to help users see which clusters are currently running to find bottlenecks and to help better understand where they are connected.",
-            "built using react and nodejs.",
-            "comes in dark mode."
+            "자신의 aws 클러스터를 실시간으로 시각화 할 수있는 해커 톤 프로젝트.",
+            "의도 된 사용 사례는 사용자가 현재 실행중인 클러스터를 확인하여 병목 현상을 찾고 연결된 위치를 더 잘 이해하는 데 도움이됩니다.",
+            "react와 nodejs를 사용하여 개발되었습니다.",
+            "다크 모드와 함께 제공됩니다."
           ]
         },
         {
-          "name": "nhl play by play data scraper",
+          "name": "nhl play by play 데이터 스크레이퍼",
           "startYear": "2018",
           "endYear": "",
           "description": [
-            "a back-end application that takes play by play data from the nhl’s public stats api using javascript and nodejs.",
-            "commands are executed through powershell and scrapes json data into .csv format to easily analyze large sets of data.",
-            "data can be filtered into specific player details and events for each game for every nhl season starting from 1917-18 onwards."
+            "자바 스크립트와 nodejs를 사용하여 NHL의 공개 통계 API에서 데이터를 가져 오는 백엔드 애플리케이션.",
+            "명령은 powershell을 통해 실행되며 json 데이터를 .csv 형식으로 스크랩하여 큰 데이터 세트를 쉽게 분석합니다.",
+            "데이터는 1917-18년부터 매 nhl 시즌마다 각 게임의 특정 플레이어 세부 정보와 이벤트로 필터링 할 수 있습니다."
           ]
         },
         {
-          "name": "galactic gunfight",
+          "name": "은하 총격전 게임",
           "startYear": "2015",
           "endYear": "",
           "description": [
-            "developed a 2d, two-person pvp video game using construct 2.",
-            "runs on all windows platforms.",
-            "custom art design."
+            "construct 2를 사용하여, 2인용 pvp 비디오 게임을 개발했습니다.",
+            "모든 windows 플랫폼에서 실행됩니다.",
+            "커스텀 예술 디자인."
           ]
         }
       ],
