@@ -11,8 +11,8 @@
             "a fourth year design project that helps users find anything or anyone within the real world with high accuracy and minimal coordination.",
             "intended use case is to improve gps accuracy when locating people at large gatherings such as concerts, sporting events, or ride-sharing applications.",
             "users can place an augmented reality marker at their current location to be easily spotted by other users.",
-            "back-end built using nodejs + express and sql, front-end built with swift and arkit.",
-            "did not present as fydp symposium canceled due to covid."
+            "back-end built using nodejs and sql, front-end built with swift and arkit.",
+            "did not present as fydp symposium was canceled due to covid."
           ]
         },
         {
@@ -63,7 +63,7 @@
             "4 년차 디자인 프로젝트: 사용자가 높은 정확성과 최소한의 조정으로 무엇이든 누구든 찾을 수 있도록 도와줍니다.",
             "의도 된 사용 사례는 콘서트, 스포츠 행사 또는 승차 공유 애플리케이션과 같은 대규모 모임에서 사람들을 찾을 때 GPS 정확도를 개선하는 것입니다.",
             "사용자는 다른 사용자가 쉽게 알아볼 수 있도록 현재 위치에 증강 현실 마커를 배치 할 수 있습니다.",
-            "백엔드: nodejs + express와 sql, 프런트 엔드: swift와 arkit.",
+            "백엔드: nodejs와 sql, 프런트 엔드: swift와 arkit.",
             "코로나 때문에 fydp 심포지엄이 취소되었습니다."
           ]
         },
